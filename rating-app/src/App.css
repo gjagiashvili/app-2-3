@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Space+Mono:wght@700&family=Ubuntu&display=swap');
+
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 110vh;
+  font-family: Overpass;
+}

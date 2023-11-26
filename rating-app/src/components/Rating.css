@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Space+Mono:wght@700&family=Ubuntu&display=swap');
+
+.starIcon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+}
+
+.title {
+    color: white;
+}
+
+.paragraph {
+    color: hsl(217, 12%, 63%);
+    font-size: 5px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    margin-left: 40px;
+    border-radius: 50%;
+    background-color: hsl(210, 16%, 37%);
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-container:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit-button {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    align-items: center;
+    font-family: Overpass;
+    border: 0;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    border-radius: 25px;
+    align-items: center;
+    font-family: Overpass;
+    border: 0;
+    outline: 0;
+}
+
+.active {
+    background-color: orange;
+    color: white;
+}

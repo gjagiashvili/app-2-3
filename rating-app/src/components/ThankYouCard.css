@@ -1,0 +1,41 @@
+.thankYouIcon-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.you-selected {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(211, 19%, 24%);
+    margin: 10px auto;
+}
+
+.title1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: 16px 0 8px 0;
+    color: white;
+    text-align: left;
+}
+
+.title2 {
+    padding-top: 20px;
+    margin: 16px 0 8px 0;
+    color: white;
+    text-align: center;
+}
+
+.paragraph {
+    padding-top: 50px;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    align-items: center;
+}
