@@ -20,7 +20,7 @@ const Rating = (props) => {
         if (selectedRating === 0) {
             alert('Please select a rating!');
         } else {
-            props.onNext(selectedRating); // Pass the selected rating to the parent component when submit is clicked
+            props.onNext(selectedRating);
         }
     };
 
