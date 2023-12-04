@@ -9,7 +9,7 @@ function App() {
 
   const nextPageHandler = (rating) => {
     setSelectedRating(rating); 
-    setActivePage(activeState + 1); 
+    setActivePage(activePage + 1); 
 };
   return (
     <>
