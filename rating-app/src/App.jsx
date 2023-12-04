@@ -4,12 +4,12 @@ import ThankYou from './components/ThankYouCard'
 import './App.css'
 
 function App() {
-  const [activeState, setActiveState] = useState(1)
+  const [activePage, setActivePage] = useState(1)
   const [selectedRating, setSelectedRating] = useState(0);
 
   const nextPageHandler = (rating) => {
     setSelectedRating(rating); 
-    setActiveState(activeState + 1); 
+    setActivePage(activeState + 1); 
 };
   return (
     <>
